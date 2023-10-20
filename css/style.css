@@ -1,0 +1,569 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    height: 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .img img{
+    width: 77px;
+    height: 91px;
+}
+.header .img{
+    display: flex;
+    margin-left: 80px;
+}
+.header .img h2{   
+    font-family: sans-serif;
+    margin-top: 35px;
+    margin-left: 12px;
+    color: #00BA8D;
+    font-size: 34px;
+}
+
+.header .link ul li{
+    display: inline-block;
+    margin-left: 20px;
+}
+.header .link ul li a{
+    text-decoration: none;
+    color: #0F2F51;
+    font-family: sans-serif;
+    
+}
+.header .link{
+    margin-right: -50px;
+    margin-top: 21px;
+}
+.header .link ul li a:hover{
+    color: #00BA8D;
+    transition: 0.3s ease-in-out;
+}
+.header .but button{
+    width: 109px;
+    height: 42px;
+    margin-top: 15px;
+    background: #00BA8D;
+    border-radius: 8px;
+    border: none;
+    margin-right: 37px;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+
+
+
+
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+.content .tex h3{
+    font-size: 42px;
+    color: #0F2F51;
+    font-family: sans-serif;
+    margin: 40px;
+}
+.content .tex h3 span{
+    color: #00BA8D;
+}
+.content .tex h5{
+    color: #888787;
+    font-family: sans-serif;
+    margin-left: 44px;
+    margin-top: -9px;
+}
+
+
+.content .tex button{
+    width: 171px;
+    height: 58px;
+    margin-top: 15px;
+    background: #00BA8D;
+    border-radius: 8px;
+    border: none;
+    margin-right: 37px;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 42px;
+    margin-top: 23px;
+}
+.content .slider img{
+    width: 300px;
+    height: 450px;
+    margin-right: 196px;
+}
+.with{
+    width: 100%;
+    height: 130px;
+    background: #00BA8D;
+    display: flex;
+}
+.with .texture{
+    color: white;
+    font-family: sans-serif;
+    padding: 40px;
+    font-size: 23px;
+}
+.with .op select{
+    width: 304px;
+    height: 56px;
+    border-radius: 4px;
+    padding-left: 12px;
+    border: none;
+    outline: none;
+    margin-top: 34px;
+}
+.with .op option{
+    height: 30px;
+}
+.head .text h2{
+    text-align: center;
+    font-family: sans-serif;
+    color: #0F2F51;
+    margin-top: 95px;
+    font-size: 40px;
+}
+
+.head .text h4{
+    text-align: center;
+    font-family: sans-serif;
+    color: #888787;
+    font-size: 11px;
+    margin-top: 10px;
+    font-weight: 200;
+}
+.head .mick .block{
+    width: 229px;
+    height: 200px;
+    border: dotted #B2EADD;
+    background: rgb(255, 255, 255);
+    margin-left: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.head .mick{
+    display: flex;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+.head .mick .block .circle{
+    width: 80px;
+    height: 80px;
+    border: dotted #6AD6BD;
+    margin-left: 73px;
+    border-radius: 50%;
+    margin-top: 15px;
+}
+
+.head .mick .block .circle img{
+    margin: 12px;
+}
+.head .mick .block .rexe h2{
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: #0E2E50;
+}
+
+.head .mick .block .rexe h3{
+    text-align: center;
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #0E2E50;
+}
+.head .mick .block .rexe h4{
+    text-align: center;
+    margin-top: 11px;
+    font-weight: 200;
+    font-family: sans-serif;
+    color: #00B98E;
+}
+.mick .blick{
+    width: 235px;
+    height: 220px;
+    background: #EFFDF5;
+}
+.mead{
+    display: flex;
+    justify-content: space-between;
+}
+.mead .eimg img{
+    width: 486px;
+    height: 732px;
+    margin-top: 87px;
+    margin-left: 35px;
+}
+.mead .etext h2{
+    margin-right: 242px;
+    margin-top: 230px;
+    font-size: 41px;
+    font-family: sans-serif;
+    color: #0E2E50;
+}
+.mead .etext h4{
+    font-family: sans-serif;
+    margin-top: 21px;
+    color: #888787;
+    font-weight: 300;
+}
+.mead .etext .elink ul li  a{
+    text-decoration: none;
+    color: #888787;
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-weight: 200;
+}
+.mead .etext .elink ul li{
+    list-style: none;
+    margin-top: 30px;
+}
+.mead .etext .ebut button{
+    width: 153px;
+    height: 58px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: 37px;
+    color: white;
+    background: #00B98E;
+}
+.mead .etext .elink ul li img{
+    margin-top: 10px;
+}
+
+
+#myBtnContainer{
+    margin-left: 767px;
+}
+.main {
+    max-width: 1000px;
+    margin: auto;
+    margin-top: -98px;
+  }
+  
+  h1 {
+    font-size: 50px;
+    word-break: break-all;
+  }
+  
+  .row {
+    margin: 10px -16px;
+  }
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  .column {
+    float: left;
+    width: 33.33%;
+    display: none;
+  } 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  
+  .show {
+    display: block;
+  }
+  .btn {
+    border: 1px solid #00B98E;
+    outline: none;
+    padding: 12px 16px;
+    border-radius: 7px;
+    background-color: white;
+    cursor: pointer;
+  }
+  .btn:hover {
+    background-color: #00BA8D;
+    color: white;
+    transition: 0.3s;
+  }  
+  .btn.active {
+    background-color: #00B98E;
+    color: white;
+  }
+
+.verybig .verytext{
+    margin: 65PX;
+}
+.verybig .verytext h2{
+    font-size: 47px;
+    font-family: sans-serif;
+    color: #0F2F51;
+}
+.verybig .verytext h5{
+    margin-top: 3px;
+    font-family: sans-serif;
+    color: #888787;
+}
+.column .tent1{
+    overflow: hidden;
+}
+.column .tent1 img{
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.column .tent1 img:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+}
+.column  .verrr button{
+    border: none;
+    background: white;
+    border-radius: 5px;
+    margin-top: -38px;
+    color: #00B995;
+    width: 120px;
+    height: 38px;
+    margin-left: 13px;
+}
+.column .veryup h2{
+    color: #00B98E;
+    font-family: sans-serif;
+    margin-left: 16px;
+}
+.column .veryup h3{
+    font-family: sans-serif;
+    margin-left: 16px;
+    margin-top: 14px;
+    color: #0E2E50;
+    font-weight:700;
+    cursor: pointer;
+}
+.column .veryup h3:hover{
+    color: #198754;
+    transition: 0.3s;
+}
+.column .watch h4{
+    color: grey;
+    font-family: system-ui;
+    font-weight: 500;
+    margin-left: 14px;
+    margin-top: 16px;
+}
+.verybig .veryblocks .main .wachbut button{
+    width: 160px;
+    height: 58px;
+    color: white;
+    background: #00B98E;
+    font-size: 16px;
+    font-family: Heebo, sans-serif;
+    border-radius: 7px;
+    border: #00B98E;
+    outline: none;
+    margin-left: 479px;
+    cursor: pointer;
+    margin-top: 24px;
+}
+.messen{
+    display: flex;
+    justify-content: space-between;
+}
+.messen .mesblock img{
+    width: 493px;
+    height: 345px;
+    margin: 111px 89px;
+    border-radius: 9px;
+}
+.messen .mestext {
+    margin-right: 161px;
+    margin-top: 170px;
+}
+.messen .mestext h1{
+    font-family: sans-serif;
+    font-size: 43px;
+    color: #0E2E50;
+}
+.messen .mestext h5{
+    margin-top: 15px;
+    color: #747474;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+.messen .mestext button{
+    width: 201px;
+    height: 58px;
+    background: #00B98E;
+    color: white;
+    font-family: sans-serif;
+    border: #00B98E;
+    border-radius: 6px;
+    margin-top: 26px;
+}
+.chigan .chitext{
+    text-align: center;
+}
+.chigan .chitext h2{
+    font-size: 50px;
+    color: #0E2E50;
+}
+.chigan .chitext h4{
+  color: #888787;
+  font-family: sans-serif;
+  font-weight: 500
+}
+.chigan .chiimg img{
+    width: 546px;
+    height: 604px;
+    border-radius: 10px;
+    margin-left: 64px;
+    margin-top: 22px;
+}
+.chigan .chiimg{
+    display: flex;
+}
+.chigan .chiicon{
+    margin-left: 300px;
+    margin-top: -14px;
+}
+.chigan .chiicon button{
+    width: 50px;
+    border: white;
+    border-radius: 40px;
+    height: 50px;
+    cursor: pointer;
+}
+.chigan .chiicon button:hover{
+    border-radius: 85% 15% 75% 25% / 53% 65% 35% 47% ;
+    background: #00B995;
+    color: white;
+    transition: 0.3s ;
+}
+
+
+.chigan .chibut{
+    margin-left: 920px;
+    margin-top: -47px;
+}
+.chigan .chibut button{
+    width: 50px;
+    border: white;
+    border-radius: 40px;
+    height: 50px;
+    cursor: pointer;
+}
+.chigan .chibut button:hover{
+    border-radius: 85% 15% 75% 25% / 53% 65% 35% 47% ;
+    background: #00B995;
+    color: white;
+    transition: 0.3s ;
+}
+
+.chigan .chimegin h2{
+    font-family: sans-serif;
+    margin-left: 104px;
+    color: #0E2E50;
+}
+.chigan .chimegin h3{
+    margin-left: 252px;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: #747474;
+}
+.chigan .chiein h2{
+    font-family: sans-serif;
+    margin-left: 704px;
+    color: #0E2E50;
+    margin-top: -50px;
+}
+.chigan .chiein h3{
+    margin-left: 900px;
+    font-family: sans-serif;
+    font-weight: 200;
+    margin-top: 0px;
+    color: #747474;
+}
+
+.minitext{
+    color: #0E2E50;
+    text-align: center;
+    margin-top: 100px;
+    font-family: sans-serif;
+}
+.owl-carousel{
+    margin-top: 80px;
+}
+.footer{
+    width: 100%;
+    height: 404px;
+    margin-top: 100px;
+    background: #0E2E50;
+}
+.footer .ftext h2{
+    color: white;
+    font-family: sans-serif;
+    padding-top: 70px;
+    padding-left: 75px;
+}
+.footer .ftext .flink ul li{
+    list-style: none;
+    margin-top: 16px;
+}
+.footer .ftext .flink ul li a{
+    color: #8797A8;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+.footer .ftext {
+    margin-top: -40px;
+}
+.footer .ftext .flink {
+    margin-left: 75px;
+}
+.footer .miblock{
+    width: 89%;
+    height: 1px;
+    background: #a9b0b782;
+    margin-top: 120px;
+    margin-left: 43px;
+}
+.footer .fimg img{
+    margin-left: 20px;
+}
+.footer .fimg {
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.footer .misp h3{
+    color: #888787;
+    margin: 22px 48px;
+}
+.footer .misp h3 span{
+    color: white;
+}
+.metext{
+    margin-left: 600px;
+    margin-top: -200px;
+}
+
+
+.footer .metext h2{
+    color: white;
+    font-family: sans-serif;
+}
+.footer .metext .melink ul li{
+    list-style: none;
+    margin-top: 16px;
+}
+.footer .metext .melink ul li a{
+    color: #8797A8;
+    font-family: sans-serif;
+    text-decoration: none;
+}
